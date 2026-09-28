@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/purgenode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Purge URLs and node query parts with stable normalization.",
+  "bin": {
+    "purgenode": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/purgenode.git"
+  },
+  "homepage": "https://theworker02.github.io/purgenode/",
+  "keywords": [
+    "purge",
+    "node",
+    "url",
+    "cli",
+    "toolkit"
+  ]
+}
